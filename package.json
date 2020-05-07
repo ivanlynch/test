@@ -1,12 +1,12 @@
 {
   "name": "svelte-app",
-  "homepage": "https://github.com/ivanlynch/test.git",
+  "homepage": ".",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public",
-    "test": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "11.0.2",
